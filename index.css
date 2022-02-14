@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  flex-direction: column;
+}
+#NavBar{
+  height: 0vh;
+  /* width: 0px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Burger{
+  position: fixed;
+  z-index: 3;
+  top: 15px;
+  left: 15px;
+}
+.burgerLines{
+  height: 4px;
+  background-color: rgb(0, 0, 0);
+  width: 30px;
+  margin: 6px;
+}
+#navigationVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  display: none;
+}
+#navigationLogo {
+  font-family: "Montserrat Subrayada", sans-serif;
+  font-size: 42px;
+  margin: 50px 0;
+  color: rgba(218, 218, 218, 0.726);
+}
+#navigationContainer {
+  margin-top: 30px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#navigationUL {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.navigationLI {
+  list-style: none;
+  margin: 15px 0;
+}
+.navigationA {
+  text-decoration: none;
+  font-family: "Staatliches";
+  font-size: 26px;
+  color: rgb(136, 138, 255);
+}
+.navSocialA {
+  text-decoration: none;
+  margin: 0 15px;
+  color: rgb(255, 255, 255);
+}
+.navigationSocial {
+  margin-top: 80px;
+}
